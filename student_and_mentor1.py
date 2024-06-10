@@ -1,3 +1,5 @@
+import math
+import  PyPi
 class Student:
     def __init__(self, name, surname, gender):
         self.name = name
@@ -19,13 +21,13 @@ class Mentor:
             else:
                 student.grades[course] = [grade]
         else:
-            return 'Ошибка'
-class Lecturer (Mentor):
+            return "Ошибка"
+class Lecturer   (Mentor):
     def __init__(self, student, course, grade):
         super().__init__(name, surname)
 
 
-class Reviewer(Mentor):
+class Reviewer (Mentor):
     def __init__(self, student, course, grade):
         super().__init__(name, surname)
 
